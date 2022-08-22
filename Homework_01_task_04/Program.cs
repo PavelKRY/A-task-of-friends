@@ -1,0 +1,14 @@
+﻿Console.WriteLine("Введите первое значение: ");
+string inputA = Console.ReadLine();
+Console.WriteLine("Введите второе значение: ");
+string inputB = Console.ReadLine();
+Console.WriteLine("Введите третье значение: ");
+string inputC = Console.ReadLine();
+double a = Int32.Parse (inputA);
+double b = Int32.Parse (inputB);
+double c = Int32.Parse (inputC);
+double max = a;
+if(b>max) max = b;
+if(c>max) max = c;
+Console.WriteLine("Максимальное значение, это: ");
+Console.WriteLine(max);
