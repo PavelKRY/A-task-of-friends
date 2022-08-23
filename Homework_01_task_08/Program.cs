@@ -6,7 +6,7 @@ int repeat = inputB/2;
 int n = 0;
 int firstnumber = 2;
 Console.WriteLine("Ваш числовой ряд до введённого вами значения: ");
-while(n<repeat)
+while(n<=repeat)
     {
     int temp = firstnumber;
     Console.WriteLine(temp);
