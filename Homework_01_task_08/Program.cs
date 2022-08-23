@@ -1,14 +1,15 @@
 ﻿Console.WriteLine("Введите значение: ");
 string inputa = Console.ReadLine();
 int inputA = Int32.Parse(inputa);
+int inputB = inputA - 1;
+int repeat = inputB/2;
+int n = 0;
+int firstnumber = 2;
 Console.WriteLine("Ваш числовой ряд до введённого вами значения: ");
-while (inputA > 1){
-    if(inputA %2 == 0) {
-        Console.WriteLine(inputA);
+while(n<repeat)
+    {
+    int temp = firstnumber;
+    Console.WriteLine(temp);
+    firstnumber=firstnumber+2;
+    n++; 
     }
-    else{
-        Console.WriteLine(inputA-1);
-    }
-    inputA=inputA-2;
-}
-
